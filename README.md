@@ -26,7 +26,7 @@ The detection of crops and weeds in agricultural fields is essential for effecti
 
 # How it Works
 
-The process flow for the segmentation-based approach for crop and weed detection involves the following steps:
+This project aims to automate the process of crop and weed detection using a segmentation-based approach, leveraging the Segment Anything Model (SAM) and You Only Look Once version 8 (YOLOv8) algorithm. The workflow involves several steps, including image annotation, model processing, ground truth image generation, and performance evaluation.
 
 1. **Image Annotation:** The process begins with the annotation of images using annotation tools such as Supervisely or Roboflow. Annotations are used to mark the regions of interest (crops and weeds) in the images, creating labeled datasets for training and evaluation.
 
@@ -46,9 +46,6 @@ The process flow for the segmentation-based approach for crop and weed detection
 
 9. **Repetition and Evaluation:** Steps 1 to 8 are repeated for a subset of images (10% of the dataset) selected through random sampling. This iterative process ensures robustness and reliability in evaluating the segmentation and detection algorithms.
 
-# How it Works
-
-This project aims to automate the process of crop and weed detection using a segmentation-based approach, leveraging the Segment Anything Model (SAM) and You Only Look Once version 8 (YOLOv8) algorithm. The workflow involves several steps, including image annotation, model processing, ground truth image generation, and performance evaluation.
 
 ## Process Flow
 1. **Image Annotation:** The process begins with annotating images using tools such as Supervisely or Roboflow to label crops and weeds. This annotated data is saved in JSON format, providing ground truth information for training and evaluation.
